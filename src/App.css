@@ -1,0 +1,126 @@
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #d0c88e;
+  color: #ffffff;
+}
+.tbTitle{
+  margin: 0 0 0 43px;
+  font-size: 40px;
+  width: 210px;
+}
+.tbItemList{
+  display: flex;
+  justify-content: space-between;
+  width: 46.4%;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+.logInList{
+  display: flex;
+  margin: 0 24px 0 0;
+  font-size: 20px;
+}
+.logIn{
+  margin-right: 29px;
+}
+.bannerImage{
+  height: 600px;
+  width: 100%;
+}
+
+.main{
+  display: flex;
+  margin: 130px 0 100px 10.4%;
+}
+
+.hotRecipe{
+  width: 775px; 
+  display: flex;
+  flex-direction: column;
+}
+.hrTitle{
+  margin-bottom: 79px;
+  font-size: 45px;
+}
+.hrContents{
+  display: flex;
+}
+.hrImage{
+  height: 340px;
+  width: 350px;
+}
+.hrCntText{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.hrCntTitle{
+  font-size: 30px;
+}
+.hrCntRecipe{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 113px;
+  margin-top: 55px;
+  font-size: 20px;
+}
+.hrCntIcons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 106px;
+  font-size: 20px;
+}
+.arrowImg{
+  height: 14px;
+}
+.hrMovePages{
+  display: flex;
+  align-items: center;
+}
+.hrPages{
+  margin: 0 15px 0 15px;
+}
+
+.savedRecipes{
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px;
+}
+.srTitle{
+  font-size: 45px;
+}
+.srImg{
+  width: 150px;
+  height: 150px;
+  padding-right: 10px;
+}
+.srList{
+  display: flex;
+  margin-top: 78px;
+}
+
+.scrollBtn{ 
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #d0c88e;
+  opacity: 0.7;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 100px;
+  right: 62px;
+}
